@@ -1,0 +1,95 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #FFF;
+    width: 320px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 720;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    margin: 0.5rem auto;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+}
+
+.inputGroup label {
+    display: block;
+    text-align: left;
+    color: #333;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.inputGroup input {
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+}
+
+.inputGroup input:focus {
+    border-color: #007bff;
+}
+
+.button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,123,255,1) 0%, rgba(155,0,255,1) 100%);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, rgba(0,123,255,0.8) 0%, rgba(155,0,255,0.8) 100%);
+}
+
+.signUpPrompt {
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.signUpPrompt a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
